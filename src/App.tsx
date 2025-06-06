@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import Filter from "./Filter";
 import LiquidChrome from "./LiquidChrome/LiquidChrome";
-import PixelTrail from "./PixelTrail/PixelTrail";
 
 function App() {
   const [unfilt, setUnfilt] = useState("");

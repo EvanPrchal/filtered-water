@@ -1,5 +1,4 @@
 import { useState } from "react";
-import GooeyNav from "./GooeyNav/GooeyNav";
 import "./filter.css";
 type FilterProps = {
   material: string;

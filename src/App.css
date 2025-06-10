@@ -14,7 +14,7 @@
   height: 100%;
   color: #f0aa89;
   position: relative;
-  bottom: 80vh;
+  /* Took out bottom: 80vh, not sure what it looks like on other monitors but my components only show up when i have that part in */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,9 +28,16 @@
   justify-content: center;
 }
 
+@font-face {
+  font-family: "Rubik Bubbles";
+  src: url("../fonts/RubikBubbles-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .water {
   padding-left: 0.5em;
-  font-family: "Rubik Bubbles";
+  font-family: "Rubik Bubbles", "comic sans";
   letter-spacing: 0.25em;
   color: #13294b;
   -webkit-text-stroke: 0.000001px white;
